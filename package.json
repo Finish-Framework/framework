@@ -1,11 +1,11 @@
 {
-  "name": "finish-framework",
+  "name": "@finish/framework",
   "version": "0.0.1",
-  "description": "Frontend Framework in stylus and vue.js",
+  "description": "UI Framework making use of Vue.js and Tailwindcss",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Finish-Framework/Finish.git"
+    "url": "git+https://github.com/Finish-Framework/framework"
   },
   "files": [],
   "scripts": {
@@ -18,25 +18,24 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "cross-env": "^5.0.5",
-    "laravel-mix": "^1.4.3",
-    "nib": "^1.1.2",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1"
+    "laravel-mix": "^4.0.13"
+  },
+  "dependencies": {
+    
   },
   "keywords": [
-    "frontend",
+    "ui",
     "framework",
     "css",
     "js",
     "vuejs",
-    "stylus",
+    "tailwindcss",
     "vue"
   ],
   "author": "James Johnson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Finish-Framework/Finish/issues"
+    "url": "https://github.com/Finish-Framework/framework/issues"
   },
-  "homepage": "https://github.com/Finish-Framework/Finish#readme"
+  "homepage": "https://github.com/Finish-Framework/framework/blob/master/README.md"
 }
