@@ -21,7 +21,7 @@
     "laravel-mix": "^4.0.13"
   },
   "dependencies": {
-    
+    "@finish/scripts.utils": "0.0.1"
   },
   "keywords": [
     "ui",
